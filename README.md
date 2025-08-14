@@ -72,4 +72,4 @@ We will build a BookStore application using Spring Boot, Spring Cloud, and Docke
 * Git Clone repository in folder local Example: D:\lab\microservices\ (windows) or home/lab/microservices/ (Linux)
 * Into folder local, Go to \spring-boot-microservices-course\deployment\docker-compose
 * Execute the instructuion: > docker-compose -f infra.yml up
-* Verify docker containers up (docs/infra.png)
+* Verify docker containers up ![Infra Containers](docs/infra.png)
