@@ -65,3 +65,11 @@ We will build a BookStore application using Spring Boot, Spring Cloud, and Docke
   * [Spring Boot + Kubernetes Series](https://www.youtube.com/playlist?list=PLuNxlOYbv61h66_QlcjCEkVAj6RdeplJJ)
   * [Spring Boot : The Missing Guide](https://www.youtube.com/playlist?list=PLuNxlOYbv61jZL1IiciTgWezZoqEp4WXh)
   * [Java Testing Made Easy: Learn writing Unit, Integration, E2E & Performance Tests](https://www.youtube.com/playlist?list=PLuNxlOYbv61jtHHFHBOc9N7Dg5jn013ix)
+
+## Local Installation
+
+### Infraestructure Installation
+* Git Clone repository in folder local Example: D:\lab\microservices\ (windows) or home/lab/microservices/ (Linux)
+* Into folder local, Go to \spring-boot-microservices-course\deployment\docker-compose
+* Execute the instructuion: > docker-compose -f infra.yml up
+* Verify docker containers up (docs/infra.png)
