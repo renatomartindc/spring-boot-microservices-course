@@ -70,21 +70,21 @@ We will build a BookStore application using Spring Boot, Spring Cloud, and Docke
 
 * **Infraestructure Installation**: 
 
-* Git Clone repository in folder local Example: D:\lab\microservices\ (windows) or home/lab/microservices/ (Linux)
-* Into folder local, Go to \spring-boot-microservices-course\deployment\docker-compose
-* Execute the instruction: > docker-compose -f infra.yml up
-* Verify docker containers up ![Infra Containers](docs/infra.png)
+  * Git Clone repository in folder local Example: D:\lab\microservices\ (windows) or home/lab/microservices/ (Linux)
+  * Into folder local, Go to \spring-boot-microservices-course\deployment\docker-compose
+  * Execute the instruction: > docker-compose -f infra.yml up
+  * Verify docker containers up ![Infra Containers](docs/infra.png)
 
 * **Development Installation**: 
-* Pre-requesites: Maven 3.9.9+ Installed
-* Go to each folder spring-boot-microservices-course\ (api-gateway, catalog-service, order-service, notification-service, bookstore-webapp) in this order.
-* In each folder (Example: spring-boot-microservices-course\api-gateway) Execute the instruction: > mvn clean install
-* Verify Build Success ![Build Success](docs/build.png)
-* Then, execute the instruction: > mvn spring-boot:run
-* Verify Run Sucess ![Run Success](docs/run.png)
+  * Pre-requesites: Maven 3.9.9+ Installed
+  * Go to each folder spring-boot-microservices-course\ (api-gateway, catalog-service, order-service, notification-service, bookstore-webapp) in this order.
+  * In each folder (Example: spring-boot-microservices-course\api-gateway) Execute the instruction: > mvn clean install
+  * Verify Build Success ![Build Success](docs/build.png)
+  * Then, execute the instruction: > mvn spring-boot:run
+  * Verify Run Sucess ![Run Success](docs/run.png)
 
 * **Test BookStore-WebApp**:
-* Go to page http://localhost:8080 ![BookStore Page](docs/webapp.png)
+  * Go to page http://localhost:8080 ![BookStore Page](docs/webapp.png)
 
   
 
