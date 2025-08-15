@@ -77,7 +77,7 @@ We will build a BookStore application using Spring Boot, Spring Cloud, and Docke
 
 * **Development Installation**: 
   * Pre-requesites: Maven 3.9.9+ Installed
-  * Go to each folder spring-boot-microservices-course\ (api-gateway, catalog-service, order-service, notification-service, bookstore-webapp) in this order.
+  * Go to each folder spring-boot-microservices-course\ (api-gateway, notification-service, catalog-service, order-service, bookstore-webapp) in this order.
   * In each folder (Example: spring-boot-microservices-course\api-gateway) Execute the instruction: > mvn clean install
   * Verify Build Success ![Build Success](docs/build.png)
   * Then, execute the instruction: > mvn spring-boot:run
@@ -86,7 +86,9 @@ We will build a BookStore application using Spring Boot, Spring Cloud, and Docke
 * **Test BookStore-WebApp**:
   * Go to page http://localhost:8080 ![BookStore Page](docs/webapp.png)
 
-  
+  KeyCloack -> http://localhost:9191/admin   (admin/admin1234)
+  RabbitMQ Managment -> http://localhost:15672/    (guest/guest)
+  MailHog --> http://localhost:8025/ 
 
 
 
